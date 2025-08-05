@@ -1,0 +1,21 @@
+{
+  "name": "hackernews-api-test",
+  "version": "1.0.0",
+  "description": "HackerNews API automated testing with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:sanity": "playwright test --project=sanity",
+    "test:regression": "playwright test --project=regression",
+    "report": "playwright show-report",
+    "setup": "npm install && npx playwright install"
+  },
+  "keywords": ["api-testing", "playwright", "hackernews"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+} 

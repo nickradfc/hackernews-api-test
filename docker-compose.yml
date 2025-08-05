@@ -1,0 +1,8 @@
+services:
+  hackernews-tests:
+    build: .
+    volumes:
+      - ./test-results:/app/test-results
+    environment:
+      - CI=true
+    command: npm test 
