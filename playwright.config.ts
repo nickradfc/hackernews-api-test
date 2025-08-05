@@ -5,7 +5,7 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: 2,
-  workers: 10,
+  workers: 16,
   reporter: [
     ['html'],
     ['json', { outputFile: 'test-results/results.json' }]

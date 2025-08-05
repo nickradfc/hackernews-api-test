@@ -1,6 +1,6 @@
 # HackerNews API Test
 
-API testing for HackerNews Public API using TypeScript and Playwright. Tests run in parallel with 10 workers by default. Tests results available in HTML dashboard with `npm run report` or access json file test results in the `test-results/`. RUnning tests with Docker option provides a consistent test environment across different machines and CI/CD pipelines.
+API testing for HackerNews Public API using TypeScript and Playwright. Tests run in parallel with 16 workers by default (can be changed). Tests results available in HTML dashboard with `npm run report` or access json file test results in the `test-results/`. RUnning tests with Docker option provides a consistent test environment across different machines and CI/CD pipelines.
 
 **Author**: Nick Radililovsky
 
